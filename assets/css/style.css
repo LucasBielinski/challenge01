@@ -55,16 +55,6 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 /* switched from class to element */
 main{
     width: 75%;
@@ -93,7 +83,7 @@ asside h3 {
 /* combine class images under asside */
 asside img{
     display: block;
-    margin: 10px auto;
+    margin: 25px auto;
     max-width: 150px;
 }
 
@@ -126,14 +116,20 @@ asside img{
 
 .search-engine-optimization img {
     max-height: 200px;
+    float: left;
+    margin-right: 25px;
 }
 
 .online-reputation-management img {
     max-height: 200px;
+    float: right;
+    margin-left: 25px;
 }
 
 .social-media-marketing img {
     max-height: 200px;
+    float: left;
+    margin-right: 25px;
 }
 
 .search-engine-optimization h2 {
